@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# environment / secrets — never commit (covers root, design_reference/, server/)
+.env
+.env.*
+!.env.example
+
+# local data: dev:local sqlite file + corrupt-file backups
+server/data/
+
+# book page screenshots are copyrighted source material — keep them local.
+# (the .gitkeep keeps the directory in the repo for the content workflow)
+content/screenshots/*
+!content/screenshots/.gitkeep
+
+# logs & OS junk
+*.log
+.DS_Store
