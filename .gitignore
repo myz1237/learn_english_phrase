@@ -20,3 +20,5 @@ content/screenshots/*
 # logs & OS junk
 *.log
 .DS_Store
+
+screenshots
