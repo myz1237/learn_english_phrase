@@ -28,7 +28,7 @@ npm run dev:local     # 启动后端 :3001 + 前端 :5173
 
 打开 http://localhost:5173 即可使用。
 
-数据存在 `server/data/phrasebook.sqlite`(已 gitignore):首次运行自动建库并从 `content/seed/` 灌入全部内容;之后复用现有文件;若文件损坏会自动备份为 `.corrupt-<时间戳>` 并重建。
+数据存在 `server/data/phrasebook.sqlite`:首次运行自动建库并从 `content/seed/` 灌入全部内容;之后复用现有文件;若文件损坏会自动备份为 `.corrupt-<时间戳>` 并重建。
 
 ### 方式二:MongoDB 模式
 

@@ -9,7 +9,7 @@ npm run install:all      # 安装 根 + server + client 依赖(仅首次)
 npm run dev:local        # 同时起后端(:3001)和前端(:5173)
 ```
 - 需要 Node ≥ 22.5(用的是 Node 内置 sqlite,无额外依赖)。
-- 数据存在 `server/data/phrasebook.sqlite`(已 gitignore):本地已有就直接用;没有或文件损坏会自动新建(坏文件会备份为 `.corrupt-<时间戳>`),首次自动从 `content/seed/` 灌入全部内容,无需手动 seed。
+- 数据存在 `server/data/phrasebook.sqlite`:本地已有就直接用;没有或文件损坏会自动新建(坏文件会备份为 `.corrupt-<时间戳>`),首次自动从 `content/seed/` 灌入全部内容,无需手动 seed。
 - 改了内容想重灌:`npm run seed:local`。
 
 ## 方式二:MongoDB 模式
