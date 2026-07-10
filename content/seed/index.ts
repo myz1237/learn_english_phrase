@@ -5,7 +5,9 @@
 import type { UnitSeed } from "./types.ts";
 import { food } from "./food.ts";
 import { fruitNuts } from "./fruit_nuts.ts";
+import { moreFruit } from "./more_fruit.ts";
 import { vegetables } from "./vegetables.ts";
+import { moreVegetables } from "./more_vegetables.ts";
 import { meatSeafood } from "./meat_seafood.ts";
 import { breadDairyBreakfast } from "./bread_dairy_breakfast.ts";
 import { drinks } from "./drinks.ts";
@@ -29,7 +31,9 @@ import { sizeNumber } from "./size_number.ts";
 export const units: UnitSeed[] = [
   food,
   fruitNuts,
+  moreFruit,
   vegetables,
+  moreVegetables,
   meatSeafood,
   breadDairyBreakfast,
   drinks,
